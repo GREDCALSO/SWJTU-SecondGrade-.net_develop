@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.Models
 {
-    [Table("Users")]
+    [Table("User")]
     internal class User
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int keyID { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -23,6 +23,12 @@ namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量�
         [StringLength(50)]
         public string Password { get; set; }
 
+        [Required]
+        [StringLength(20)]
+        public string Chara_No { get; set; }
 
+        [Required]
+        [StringLength(1)]
+        public int is_deleted { get; set; }
     }
 }
