@@ -26,5 +26,17 @@ namespace EvaluationSystem.UI
             else
                 MessageBox.Show("用户名或密码错误！");
         }
+
+        private void LogForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            var formRegister = new LogupForm();
+            //formRegister.Owner = this;
+            formRegister.ShowDialog();
+        }
     }
 }

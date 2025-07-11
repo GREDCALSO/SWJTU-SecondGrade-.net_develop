@@ -9,9 +9,10 @@ using EvaluationSystem.Common;
 
 namespace EvaluationSystem.BLL
 {
+    // AuthService用于用户身份验证，处理相关逻辑
     internal class AuthService
     {
-        public bool Register(string username, string password)
+        public bool Register(string username, string password, string charaNo)
         {
             using (var context = new UserContext())
             {
@@ -21,7 +22,8 @@ namespace EvaluationSystem.BLL
                 context.Users.Add(new User
                 {
                     Username = username,
-                    Password = password
+                    Password = password,
+                    Chara_No = charaNo
                     //Password = HashPassword(password) // 调用了Common层
                 });
                 context.SaveChanges();
