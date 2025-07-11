@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EvaluationSystem
+namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统
 {
-    public partial class Form1 : Form
+    public partial class PendingEvaluationControl : UserControl
     {
-        public Form1()
+        public PendingEvaluationControl()
         {
             InitializeComponent();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void PendingEvaluationControl_Load(object sender, EventArgs e)
         {
 
         }

@@ -123,13 +123,13 @@
   <ItemGroup>
     <Compile Include="BLL\AuthService.cs" />
     <Compile Include="Common\SecurityHelper.cs" />
+    <Compile Include="CompletedEvaluationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CompletedEvaluationControl.Designer.cs">
+      <DependentUpon>CompletedEvaluationControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DAL\UserContext.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\CollogeAdmin.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
@@ -140,8 +140,20 @@
     <Compile Include="Models\TeacherEvaluationIndex.cs" />
     <Compile Include="Models\TeacherTotalPoints.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="PendingEvaluationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PendingEvaluationControl.Designer.cs">
+      <DependentUpon>PendingEvaluationControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentPage.Designer.cs">
+      <DependentUpon>StudentPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\LogForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,8 +166,11 @@
     <Compile Include="UI\LogupForm.Designer.cs">
       <DependentUpon>LogupForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CompletedEvaluationControl.resx">
+      <DependentUpon>CompletedEvaluationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingEvaluationControl.resx">
+      <DependentUpon>PendingEvaluationControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -166,6 +181,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StudentPage.resx">
+      <DependentUpon>StudentPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\LogForm.resx">
       <DependentUpon>LogForm.cs</DependentUpon>
     </EmbeddedResource>
