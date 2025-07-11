@@ -16,5 +16,15 @@ namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量�
         {
             InitializeComponent();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
