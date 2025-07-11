@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.Properties
+namespace EvaluationSystem.Properties
 {
 
 

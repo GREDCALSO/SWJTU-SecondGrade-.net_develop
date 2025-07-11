@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvaluationSystem.Models
 {
-    [Table("User")]
-    internal class User
+    [Table("Course")]
+    internal class Course
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,15 +12,19 @@ namespace EvaluationSystem.Models
 
         [Required]
         [StringLength(50)]
-        public string Username { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Password { get; set; }
+        public string Name { get; set; }
 
         [Required]
         [StringLength(20)]
-        public string Chara_No { get; set; }
+        public string Course_No { get; set; }
+
+        [Required]
+        [StringLength(20)]
+        public string Semester { get; set; }
+
+        [Required]
+        [StringLength(20)]
+        public string Teacher_No { get; set; }
 
         [Required]
         public int is_deleted { get; set; }
