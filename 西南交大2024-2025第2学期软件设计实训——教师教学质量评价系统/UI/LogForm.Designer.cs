@@ -1,6 +1,6 @@
 ﻿namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.UI
 {
-    partial class LogFrom
+    partial class LogForm
     {
         /// <summary>
         /// Required designer variable.
@@ -73,8 +73,9 @@
             this.btnLogIn.Size = new System.Drawing.Size(146, 53);
             this.btnLogIn.TabIndex = 4;
             this.btnLogIn.Text = "登录";
+            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
-            // LogFrom
+            // LogForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -84,8 +85,8 @@
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
-            this.Name = "LogFrom";
-            this.Text = "LogFrom";
+            this.Name = "LogForm";
+            this.Text = "LogForm";
             this.ResumeLayout(false);
 
         }
