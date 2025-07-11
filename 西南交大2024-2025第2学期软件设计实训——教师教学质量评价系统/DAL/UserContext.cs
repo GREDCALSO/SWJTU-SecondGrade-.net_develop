@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.Models;
+using EvaluationSystem.Models;
 
-namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.DAL
+namespace EvaluationSystem.DAL
 {
     internal class UserContext : DbContext
     {

@@ -1,4 +1,4 @@
-﻿namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.UI
+﻿namespace EvaluationSystem.UI
 {
     partial class LogForm
     {
@@ -68,7 +68,7 @@
             // 
             // btnLogIn
             // 
-            this.btnLogIn.Location = new System.Drawing.Point(433, 354);
+            this.btnLogIn.Location = new System.Drawing.Point(365, 347);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(146, 53);
             this.btnLogIn.TabIndex = 4;

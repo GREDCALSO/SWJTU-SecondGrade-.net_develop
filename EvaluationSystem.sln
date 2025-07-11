@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "西南交大2024-2025第2学期软件设计实训——教师教学质量评价系统", "西南交大2024-2025第2学期软件设计实训——教师教学质量评价系统\西南交大2024-2025第2学期软件设计实训——教师教学质量评价系统.csproj", "{8CA283DB-5164-4915-93DB-9E8325A7FECD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationSystem", "西南交大2024-2025第2学期软件设计实训——教师教学质量评价系统\EvaluationSystem.csproj", "{8CA283DB-5164-4915-93DB-9E8325A7FECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

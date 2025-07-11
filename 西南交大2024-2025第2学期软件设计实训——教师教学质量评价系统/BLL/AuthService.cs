@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.DAL;
-using 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.Models;
-using 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.Common;
+using EvaluationSystem.DAL;
+using EvaluationSystem.Models;
+using EvaluationSystem.Common;
 
-namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统.BLL
+namespace EvaluationSystem.BLL
 {
     internal class AuthService
     {
@@ -38,5 +38,6 @@ namespace 西南交大2024_2025第2学期软件设计实训__教师教学质量�
                     //u.Password == HashPassword(password));
             }
         }
+
     }
 }
