@@ -34,12 +34,13 @@
             this.lblPassword = new AntdUI.Label();
             this.btnLogIn = new AntdUI.Button();
             this.btnRegister = new AntdUI.Button();
+            this.pageHeader1 = new AntdUI.PageHeader();
             this.SuspendLayout();
             // 
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtUsername.Location = new System.Drawing.Point(365, 77);
+            this.txtUsername.Location = new System.Drawing.Point(253, 95);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(281, 83);
             this.txtUsername.TabIndex = 0;
@@ -47,7 +48,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtPassword.Location = new System.Drawing.Point(365, 231);
+            this.txtPassword.Location = new System.Drawing.Point(253, 249);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(281, 83);
@@ -56,7 +57,7 @@
             // lblUsername
             // 
             this.lblUsername.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblUsername.Location = new System.Drawing.Point(204, 96);
+            this.lblUsername.Location = new System.Drawing.Point(92, 114);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(105, 49);
             this.lblUsername.TabIndex = 2;
@@ -65,7 +66,7 @@
             // lblPassword
             // 
             this.lblPassword.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblPassword.Location = new System.Drawing.Point(204, 242);
+            this.lblPassword.Location = new System.Drawing.Point(92, 260);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(90, 56);
             this.lblPassword.TabIndex = 3;
@@ -74,7 +75,7 @@
             // btnLogIn
             // 
             this.btnLogIn.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnLogIn.Location = new System.Drawing.Point(340, 347);
+            this.btnLogIn.Location = new System.Drawing.Point(228, 365);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(146, 53);
             this.btnLogIn.TabIndex = 4;
@@ -84,25 +85,40 @@
             // btnRegister
             // 
             this.btnRegister.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRegister.Location = new System.Drawing.Point(532, 347);
+            this.btnRegister.Location = new System.Drawing.Point(420, 365);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(146, 53);
             this.btnRegister.TabIndex = 5;
             this.btnRegister.Text = "注册";
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
+            // pageHeader1
+            // 
+            this.pageHeader1.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.pageHeader1.Location = new System.Drawing.Point(13, 13);
+            this.pageHeader1.Name = "pageHeader1";
+            this.pageHeader1.ShowButton = true;
+            this.pageHeader1.Size = new System.Drawing.Size(696, 58);
+            this.pageHeader1.SubText = "登录";
+            this.pageHeader1.TabIndex = 6;
+            this.pageHeader1.Text = "教师教学质量评价系统";
+            // 
             // LogForm
             // 
+            this.AutoHandDpi = false;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(721, 449);
+            this.Controls.Add(this.pageHeader1);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnLogIn);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LogForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogForm";
             this.Load += new System.EventHandler(this.LogForm_Load);
             this.ResumeLayout(false);
@@ -117,5 +133,6 @@
         private AntdUI.Label lblPassword;
         private AntdUI.Button btnLogIn;
         private AntdUI.Button btnRegister;
+        private AntdUI.PageHeader pageHeader1;
     }
 }

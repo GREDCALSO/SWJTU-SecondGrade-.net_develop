@@ -165,6 +165,24 @@
     <Compile Include="UI\LogupForm.Designer.cs">
       <DependentUpon>LogupForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\MtorMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MtorMainPage.Designer.cs">
+      <DependentUpon>MtorMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StuMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StuMainPage.Designer.cs">
+      <DependentUpon>StuMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TehrMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TehrMainPage.Designer.cs">
+      <DependentUpon>TehrMainPage.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +203,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\LogupForm.resx">
       <DependentUpon>LogupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MtorMainPage.resx">
+      <DependentUpon>MtorMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\StuMainPage.resx">
+      <DependentUpon>StuMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TehrMainPage.resx">
+      <DependentUpon>TehrMainPage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="packages.config" />

@@ -48,10 +48,10 @@
             this.btnLogUp = new AntdUI.Button();
             this.pageHeader1 = new AntdUI.PageHeader();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.txtCharaName = new AntdUI.Input();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblCollege = new System.Windows.Forms.Label();
             this.selColleges = new System.Windows.Forms.ComboBox();
+            this.lblCollege = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtCharaName = new AntdUI.Input();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -250,8 +250,9 @@
             this.pageHeader1.Name = "pageHeader1";
             this.pageHeader1.ShowButton = true;
             this.pageHeader1.Size = new System.Drawing.Size(1409, 53);
+            this.pageHeader1.SubText = "注册";
             this.pageHeader1.TabIndex = 15;
-            this.pageHeader1.Text = "注册";
+            this.pageHeader1.Text = "教师教学评价系统";
             // 
             // panel6
             // 
@@ -266,24 +267,14 @@
             this.panel6.Size = new System.Drawing.Size(666, 410);
             this.panel6.TabIndex = 16;
             // 
-            // txtCharaName
+            // selColleges
             // 
-            this.txtCharaName.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtCharaName.Location = new System.Drawing.Point(321, 26);
-            this.txtCharaName.Name = "txtCharaName";
-            this.txtCharaName.PlaceholderText = "输入姓名或组名";
-            this.txtCharaName.Size = new System.Drawing.Size(291, 82);
-            this.txtCharaName.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(198, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "角色名";
+            this.selColleges.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.selColleges.FormattingEnabled = true;
+            this.selColleges.Location = new System.Drawing.Point(205, 270);
+            this.selColleges.Name = "selColleges";
+            this.selColleges.Size = new System.Drawing.Size(430, 44);
+            this.selColleges.TabIndex = 17;
             // 
             // lblCollege
             // 
@@ -295,14 +286,24 @@
             this.lblCollege.TabIndex = 9;
             this.lblCollege.Text = "学院";
             // 
-            // selColleges
+            // label1
             // 
-            this.selColleges.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.selColleges.FormattingEnabled = true;
-            this.selColleges.Location = new System.Drawing.Point(205, 270);
-            this.selColleges.Name = "selColleges";
-            this.selColleges.Size = new System.Drawing.Size(430, 44);
-            this.selColleges.TabIndex = 17;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(198, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 37);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "角色名";
+            // 
+            // txtCharaName
+            // 
+            this.txtCharaName.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtCharaName.Location = new System.Drawing.Point(321, 26);
+            this.txtCharaName.Name = "txtCharaName";
+            this.txtCharaName.PlaceholderText = "输入姓名或组名";
+            this.txtCharaName.Size = new System.Drawing.Size(291, 82);
+            this.txtCharaName.TabIndex = 0;
             // 
             // LogupForm
             // 
@@ -319,6 +320,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LogupForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogupForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
