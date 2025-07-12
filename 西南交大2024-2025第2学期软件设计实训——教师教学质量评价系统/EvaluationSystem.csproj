@@ -7,7 +7,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8CA283DB-5164-4915-93DB-9E8325A7FECD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>西南交大2024_2025第2学期软件设计实训__教师教学质量评价系统</RootNamespace>
+    <RootNamespace>EvaluationSystem</RootNamespace>
     <AssemblyName>西南交大2024-2025第2学期软件设计实训——教师教学质量评价系统</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
