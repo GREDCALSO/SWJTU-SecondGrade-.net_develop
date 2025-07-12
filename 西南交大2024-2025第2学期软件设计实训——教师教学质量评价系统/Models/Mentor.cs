@@ -16,6 +16,10 @@ namespace EvaluationSystem.Models
 
         [Required]
         [StringLength(50)]
+        public string College_No { get; set; }
+
+        [Required]
+        [StringLength(255)]
         public string Name { get; set; }
 
         [Required]

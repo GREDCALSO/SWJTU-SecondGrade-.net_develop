@@ -11,7 +11,7 @@ namespace EvaluationSystem.Models
         public int keyID { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(255)]
         public string Name { get; set; }
 
         [Required]

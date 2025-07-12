@@ -15,11 +15,15 @@ namespace EvaluationSystem.Models
         public string Stu_No { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(255)]
         public string Name { get; set; }
 
         [StringLength(50)]
         public string Major { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string College_No { get; set; }
 
         [Required]
         public int is_deleted { get; set; }
